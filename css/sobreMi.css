@@ -1,0 +1,72 @@
+.about{
+    width: 100%;
+    margin-top: 1rem;
+    background-color: RGB(234, 242, 253);
+
+}
+
+.about__container{
+    width: 100%;
+    margin: 2rem;
+    
+    h3{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    p{
+        width: 80%;
+        font-size: 1.1rem;
+    }
+
+    img{
+        width: 5rem;
+        margin-top: 1rem;
+    }
+}
+
+/* @media para tablets */
+
+@media(min-width:768px){
+
+    .about__container {
+        
+        h3{
+          font-size: 2.5rem;
+        }
+        
+        img{
+            margin: 2rem 3rem;
+            width: 7rem;
+           
+        }
+
+        
+    }
+
+}
+
+/* @media desktop */
+
+@media(min-width: 1200px){
+
+    .about{
+        width: 100%;
+    }
+
+    .about__container {
+
+        padding: 1rem 3rem;
+        
+        h3{
+            font-size: 3rem;
+        }
+        
+        p{
+            font-size: 1.5rem;
+        }
+        img{
+            width: 12rem;
+        }
+    }
+}
